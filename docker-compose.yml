@@ -1,0 +1,7 @@
+services:
+  claims-audit:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ACA_BACKEND=stub

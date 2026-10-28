@@ -1,0 +1,2722 @@
+[
+ {
+  "case_id": "EVAL-CLM-0106",
+  "claim_agent_view": {
+   "claim_id": "CLM-0106",
+   "patient_token": "PAT-2971",
+   "provider_id": "PRV-81",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 113.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 383.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0072",
+  "claim_agent_view": {
+   "claim_id": "CLM-0072",
+   "patient_token": "PAT-5577",
+   "provider_id": "PRV-70",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 315.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0025",
+  "claim_agent_view": {
+   "claim_id": "CLM-0025",
+   "patient_token": "PAT-2918",
+   "provider_id": "PRV-73",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 110.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0061",
+  "claim_agent_view": {
+   "claim_id": "CLM-0061",
+   "patient_token": "PAT-3401",
+   "provider_id": "PRV-98",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 606.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0028",
+  "claim_agent_view": {
+   "claim_id": "CLM-0028",
+   "patient_token": "PAT-9134",
+   "provider_id": "PRV-20",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 220.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0021",
+  "claim_agent_view": {
+   "claim_id": "CLM-0021",
+   "patient_token": "PAT-2533",
+   "provider_id": "PRV-44",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 535.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0078",
+  "claim_agent_view": {
+   "claim_id": "CLM-0078",
+   "patient_token": "PAT-4348",
+   "provider_id": "PRV-71",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 689.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0053",
+  "claim_agent_view": {
+   "claim_id": "CLM-0053",
+   "patient_token": "PAT-5132",
+   "provider_id": "PRV-54",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 666.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0048",
+  "claim_agent_view": {
+   "claim_id": "CLM-0048",
+   "patient_token": "PAT-1861",
+   "provider_id": "PRV-23",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 50.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0090",
+  "claim_agent_view": {
+   "claim_id": "CLM-0090",
+   "patient_token": "PAT-3554",
+   "provider_id": "PRV-80",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 611.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0058",
+  "claim_agent_view": {
+   "claim_id": "CLM-0058",
+   "patient_token": "PAT-6613",
+   "provider_id": "PRV-43",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 540.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0099",
+  "claim_agent_view": {
+   "claim_id": "CLM-0099",
+   "patient_token": "PAT-6796",
+   "provider_id": "PRV-68",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 728.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0108",
+  "claim_agent_view": {
+   "claim_id": "CLM-0108",
+   "patient_token": "PAT-1930",
+   "provider_id": "PRV-41",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 245.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 333.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0005",
+  "claim_agent_view": {
+   "claim_id": "CLM-0005",
+   "patient_token": "PAT-1968",
+   "provider_id": "PRV-82",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 176.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0031",
+  "claim_agent_view": {
+   "claim_id": "CLM-0031",
+   "patient_token": "PAT-8053",
+   "provider_id": "PRV-80",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 335.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0109",
+  "claim_agent_view": {
+   "claim_id": "CLM-0109",
+   "patient_token": "PAT-2601",
+   "provider_id": "PRV-74",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 513.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 625.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0107",
+  "claim_agent_view": {
+   "claim_id": "CLM-0107",
+   "patient_token": "PAT-9492",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 618.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 544.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0039",
+  "claim_agent_view": {
+   "claim_id": "CLM-0039",
+   "patient_token": "PAT-9758",
+   "provider_id": "PRV-57",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 674.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0051",
+  "claim_agent_view": {
+   "claim_id": "CLM-0051",
+   "patient_token": "PAT-2152",
+   "provider_id": "PRV-36",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 678.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0096",
+  "claim_agent_view": {
+   "claim_id": "CLM-0096",
+   "patient_token": "PAT-4940",
+   "provider_id": "PRV-85",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 383.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0049",
+  "claim_agent_view": {
+   "claim_id": "CLM-0049",
+   "patient_token": "PAT-3478",
+   "provider_id": "PRV-78",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 153.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0103",
+  "claim_agent_view": {
+   "claim_id": "CLM-0103",
+   "patient_token": "PAT-1306",
+   "provider_id": "PRV-66",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 845.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0116",
+  "claim_agent_view": {
+   "claim_id": "CLM-0116",
+   "patient_token": "PAT-4942",
+   "provider_id": "PRV-64",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 124.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 267.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0007",
+  "claim_agent_view": {
+   "claim_id": "CLM-0007",
+   "patient_token": "PAT-4622",
+   "provider_id": "PRV-15",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "S83.241A",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 620.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0073",
+  "claim_agent_view": {
+   "claim_id": "CLM-0073",
+   "patient_token": "PAT-4172",
+   "provider_id": "PRV-98",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 669.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0111",
+  "claim_agent_view": {
+   "claim_id": "CLM-0111",
+   "patient_token": "PAT-9391",
+   "provider_id": "PRV-35",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 759.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 333.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0100",
+  "claim_agent_view": {
+   "claim_id": "CLM-0100",
+   "patient_token": "PAT-9466",
+   "provider_id": "PRV-63",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 896.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0037",
+  "claim_agent_view": {
+   "claim_id": "CLM-0037",
+   "patient_token": "PAT-3987",
+   "provider_id": "PRV-43",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 338.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0060",
+  "claim_agent_view": {
+   "claim_id": "CLM-0060",
+   "patient_token": "PAT-4362",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 420.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0032",
+  "claim_agent_view": {
+   "claim_id": "CLM-0032",
+   "patient_token": "PAT-7804",
+   "provider_id": "PRV-55",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 749.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0117",
+  "claim_agent_view": {
+   "claim_id": "CLM-0117",
+   "patient_token": "PAT-5960",
+   "provider_id": "PRV-25",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 845.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 208.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0002",
+  "claim_agent_view": {
+   "claim_id": "CLM-0002",
+   "patient_token": "PAT-2542",
+   "provider_id": "PRV-56",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M25.561",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 646.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0023",
+  "claim_agent_view": {
+   "claim_id": "CLM-0023",
+   "patient_token": "PAT-7320",
+   "provider_id": "PRV-95",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 405.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0063",
+  "claim_agent_view": {
+   "claim_id": "CLM-0063",
+   "patient_token": "PAT-2491",
+   "provider_id": "PRV-99",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 317.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0045",
+  "claim_agent_view": {
+   "claim_id": "CLM-0045",
+   "patient_token": "PAT-7560",
+   "provider_id": "PRV-17",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 245.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0033",
+  "claim_agent_view": {
+   "claim_id": "CLM-0033",
+   "patient_token": "PAT-7233",
+   "provider_id": "PRV-39",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 204.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0081",
+  "claim_agent_view": {
+   "claim_id": "CLM-0081",
+   "patient_token": "PAT-2964",
+   "provider_id": "PRV-59",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 851.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0019",
+  "claim_agent_view": {
+   "claim_id": "CLM-0019",
+   "patient_token": "PAT-6140",
+   "provider_id": "PRV-53",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M25.561",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 761.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0094",
+  "claim_agent_view": {
+   "claim_id": "CLM-0094",
+   "patient_token": "PAT-4457",
+   "provider_id": "PRV-13",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 307.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0084",
+  "claim_agent_view": {
+   "claim_id": "CLM-0084",
+   "patient_token": "PAT-2421",
+   "provider_id": "PRV-60",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 524.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0102",
+  "claim_agent_view": {
+   "claim_id": "CLM-0102",
+   "patient_token": "PAT-3487",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 572.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0114",
+  "claim_agent_view": {
+   "claim_id": "CLM-0114",
+   "patient_token": "PAT-4319",
+   "provider_id": "PRV-67",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 190.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 476.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0083",
+  "claim_agent_view": {
+   "claim_id": "CLM-0083",
+   "patient_token": "PAT-8109",
+   "provider_id": "PRV-91",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 390.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0013",
+  "claim_agent_view": {
+   "claim_id": "CLM-0013",
+   "patient_token": "PAT-8628",
+   "provider_id": "PRV-84",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "S83.241A",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 514.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0082",
+  "claim_agent_view": {
+   "claim_id": "CLM-0082",
+   "patient_token": "PAT-4265",
+   "provider_id": "PRV-71",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 232.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0004",
+  "claim_agent_view": {
+   "claim_id": "CLM-0004",
+   "patient_token": "PAT-2144",
+   "provider_id": "PRV-40",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "S83.241A",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 142.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0087",
+  "claim_agent_view": {
+   "claim_id": "CLM-0087",
+   "patient_token": "PAT-1451",
+   "provider_id": "PRV-29",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 654.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0101",
+  "claim_agent_view": {
+   "claim_id": "CLM-0101",
+   "patient_token": "PAT-9219",
+   "provider_id": "PRV-26",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 594.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0062",
+  "claim_agent_view": {
+   "claim_id": "CLM-0062",
+   "patient_token": "PAT-1443",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 355.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0016",
+  "claim_agent_view": {
+   "claim_id": "CLM-0016",
+   "patient_token": "PAT-8353",
+   "provider_id": "PRV-46",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M54.16",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 673.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0115",
+  "claim_agent_view": {
+   "claim_id": "CLM-0115",
+   "patient_token": "PAT-7428",
+   "provider_id": "PRV-66",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 373.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 124.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0079",
+  "claim_agent_view": {
+   "claim_id": "CLM-0079",
+   "patient_token": "PAT-1031",
+   "provider_id": "PRV-71",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 718.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0070",
+  "claim_agent_view": {
+   "claim_id": "CLM-0070",
+   "patient_token": "PAT-9480",
+   "provider_id": "PRV-73",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 414.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0065",
+  "claim_agent_view": {
+   "claim_id": "CLM-0065",
+   "patient_token": "PAT-6827",
+   "provider_id": "PRV-38",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 595.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0040",
+  "claim_agent_view": {
+   "claim_id": "CLM-0040",
+   "patient_token": "PAT-6220",
+   "provider_id": "PRV-26",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 757.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0018",
+  "claim_agent_view": {
+   "claim_id": "CLM-0018",
+   "patient_token": "PAT-9011",
+   "provider_id": "PRV-63",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M54.16",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 90.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0027",
+  "claim_agent_view": {
+   "claim_id": "CLM-0027",
+   "patient_token": "PAT-5056",
+   "provider_id": "PRV-60",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 450.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0076",
+  "claim_agent_view": {
+   "claim_id": "CLM-0076",
+   "patient_token": "PAT-4612",
+   "provider_id": "PRV-23",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 282.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0022",
+  "claim_agent_view": {
+   "claim_id": "CLM-0022",
+   "patient_token": "PAT-6072",
+   "provider_id": "PRV-92",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M25.561",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 641.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0001",
+  "claim_agent_view": {
+   "claim_id": "CLM-0001",
+   "patient_token": "PAT-7468",
+   "provider_id": "PRV-93",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M54.16",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 99.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0095",
+  "claim_agent_view": {
+   "claim_id": "CLM-0095",
+   "patient_token": "PAT-4486",
+   "provider_id": "PRV-47",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 563.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0075",
+  "claim_agent_view": {
+   "claim_id": "CLM-0075",
+   "patient_token": "PAT-6726",
+   "provider_id": "PRV-56",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 132.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0056",
+  "claim_agent_view": {
+   "claim_id": "CLM-0056",
+   "patient_token": "PAT-8870",
+   "provider_id": "PRV-71",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 369.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0068",
+  "claim_agent_view": {
+   "claim_id": "CLM-0068",
+   "patient_token": "PAT-4197",
+   "provider_id": "PRV-40",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 887.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0097",
+  "claim_agent_view": {
+   "claim_id": "CLM-0097",
+   "patient_token": "PAT-5249",
+   "provider_id": "PRV-79",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 479.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0029",
+  "claim_agent_view": {
+   "claim_id": "CLM-0029",
+   "patient_token": "PAT-8359",
+   "provider_id": "PRV-61",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 612.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0112",
+  "claim_agent_view": {
+   "claim_id": "CLM-0112",
+   "patient_token": "PAT-9325",
+   "provider_id": "PRV-78",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 876.0
+    },
+    {
+     "cpt": "85025",
+     "units": 1,
+     "charge": 539.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0085",
+  "claim_agent_view": {
+   "claim_id": "CLM-0085",
+   "patient_token": "PAT-7576",
+   "provider_id": "PRV-20",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 792.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0077",
+  "claim_agent_view": {
+   "claim_id": "CLM-0077",
+   "patient_token": "PAT-8701",
+   "provider_id": "PRV-35",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 395.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0104",
+  "claim_agent_view": {
+   "claim_id": "CLM-0104",
+   "patient_token": "PAT-4000",
+   "provider_id": "PRV-87",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 54.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0088",
+  "claim_agent_view": {
+   "claim_id": "CLM-0088",
+   "patient_token": "PAT-8624",
+   "provider_id": "PRV-93",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 199.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0010",
+  "claim_agent_view": {
+   "claim_id": "CLM-0010",
+   "patient_token": "PAT-4078",
+   "provider_id": "PRV-57",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "R07.9",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 149.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0086",
+  "claim_agent_view": {
+   "claim_id": "CLM-0086",
+   "patient_token": "PAT-3602",
+   "provider_id": "PRV-31",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 180.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0089",
+  "claim_agent_view": {
+   "claim_id": "CLM-0089",
+   "patient_token": "PAT-8771",
+   "provider_id": "PRV-94",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 408.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0008",
+  "claim_agent_view": {
+   "claim_id": "CLM-0008",
+   "patient_token": "PAT-7867",
+   "provider_id": "PRV-28",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "R07.9",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 603.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0036",
+  "claim_agent_view": {
+   "claim_id": "CLM-0036",
+   "patient_token": "PAT-1197",
+   "provider_id": "PRV-72",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 653.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0113",
+  "claim_agent_view": {
+   "claim_id": "CLM-0113",
+   "patient_token": "PAT-5057",
+   "provider_id": "PRV-99",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 585.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 315.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0042",
+  "claim_agent_view": {
+   "claim_id": "CLM-0042",
+   "patient_token": "PAT-1884",
+   "provider_id": "PRV-68",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 848.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0064",
+  "claim_agent_view": {
+   "claim_id": "CLM-0064",
+   "patient_token": "PAT-9493",
+   "provider_id": "PRV-56",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 221.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0074",
+  "claim_agent_view": {
+   "claim_id": "CLM-0074",
+   "patient_token": "PAT-6640",
+   "provider_id": "PRV-67",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 877.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0098",
+  "claim_agent_view": {
+   "claim_id": "CLM-0098",
+   "patient_token": "PAT-3147",
+   "provider_id": "PRV-17",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 807.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0069",
+  "claim_agent_view": {
+   "claim_id": "CLM-0069",
+   "patient_token": "PAT-7564",
+   "provider_id": "PRV-39",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 254.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0020",
+  "claim_agent_view": {
+   "claim_id": "CLM-0020",
+   "patient_token": "PAT-9137",
+   "provider_id": "PRV-84",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M54.16",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 866.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0119",
+  "claim_agent_view": {
+   "claim_id": "CLM-0119",
+   "patient_token": "PAT-4597",
+   "provider_id": "PRV-22",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 457.0
+    },
+    {
+     "cpt": "85025",
+     "units": 1,
+     "charge": 548.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0092",
+  "claim_agent_view": {
+   "claim_id": "CLM-0092",
+   "patient_token": "PAT-2683",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 817.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0055",
+  "claim_agent_view": {
+   "claim_id": "CLM-0055",
+   "patient_token": "PAT-2889",
+   "provider_id": "PRV-72",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 527.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0017",
+  "claim_agent_view": {
+   "claim_id": "CLM-0017",
+   "patient_token": "PAT-9387",
+   "provider_id": "PRV-63",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M25.561",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 218.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0105",
+  "claim_agent_view": {
+   "claim_id": "CLM-0105",
+   "patient_token": "PAT-3823",
+   "provider_id": "PRV-28",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 534.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 683.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0024",
+  "claim_agent_view": {
+   "claim_id": "CLM-0024",
+   "patient_token": "PAT-6823",
+   "provider_id": "PRV-31",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 675.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0006",
+  "claim_agent_view": {
+   "claim_id": "CLM-0006",
+   "patient_token": "PAT-2013",
+   "provider_id": "PRV-83",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "K29.70",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 649.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0035",
+  "claim_agent_view": {
+   "claim_id": "CLM-0035",
+   "patient_token": "PAT-4800",
+   "provider_id": "PRV-94",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 288.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0034",
+  "claim_agent_view": {
+   "claim_id": "CLM-0034",
+   "patient_token": "PAT-2359",
+   "provider_id": "PRV-32",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 204.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0011",
+  "claim_agent_view": {
+   "claim_id": "CLM-0011",
+   "patient_token": "PAT-2028",
+   "provider_id": "PRV-82",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 111.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0014",
+  "claim_agent_view": {
+   "claim_id": "CLM-0014",
+   "patient_token": "PAT-5070",
+   "provider_id": "PRV-33",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M54.16",
+   "lines": [
+    {
+     "cpt": "99213",
+     "units": 1,
+     "charge": 765.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0030",
+  "claim_agent_view": {
+   "claim_id": "CLM-0030",
+   "patient_token": "PAT-5552",
+   "provider_id": "PRV-27",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 888.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0015",
+  "claim_agent_view": {
+   "claim_id": "CLM-0015",
+   "patient_token": "PAT-5919",
+   "provider_id": "PRV-77",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "K29.70",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 556.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0009",
+  "claim_agent_view": {
+   "claim_id": "CLM-0009",
+   "patient_token": "PAT-6054",
+   "provider_id": "PRV-81",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M25.561",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 885.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0120",
+  "claim_agent_view": {
+   "claim_id": "CLM-0120",
+   "patient_token": "PAT-4665",
+   "provider_id": "PRV-30",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 773.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 491.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0038",
+  "claim_agent_view": {
+   "claim_id": "CLM-0038",
+   "patient_token": "PAT-1067",
+   "provider_id": "PRV-28",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 479.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0080",
+  "claim_agent_view": {
+   "claim_id": "CLM-0080",
+   "patient_token": "PAT-6636",
+   "provider_id": "PRV-92",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "20610",
+     "units": 1,
+     "charge": 136.0
+    }
+   ],
+   "documentation": "",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "missing_documentation",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0067",
+  "claim_agent_view": {
+   "claim_id": "CLM-0067",
+   "patient_token": "PAT-4654",
+   "provider_id": "PRV-88",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 880.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0043",
+  "claim_agent_view": {
+   "claim_id": "CLM-0043",
+   "patient_token": "PAT-7428",
+   "provider_id": "PRV-60",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 458.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0050",
+  "claim_agent_view": {
+   "claim_id": "CLM-0050",
+   "patient_token": "PAT-6957",
+   "provider_id": "PRV-88",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 76.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0110",
+  "claim_agent_view": {
+   "claim_id": "CLM-0110",
+   "patient_token": "PAT-2038",
+   "provider_id": "PRV-66",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "36415",
+     "units": 1,
+     "charge": 383.0
+    },
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 677.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0091",
+  "claim_agent_view": {
+   "claim_id": "CLM-0091",
+   "patient_token": "PAT-3146",
+   "provider_id": "PRV-12",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 64.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0057",
+  "claim_agent_view": {
+   "claim_id": "CLM-0057",
+   "patient_token": "PAT-2407",
+   "provider_id": "PRV-28",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 154.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0059",
+  "claim_agent_view": {
+   "claim_id": "CLM-0059",
+   "patient_token": "PAT-3645",
+   "provider_id": "PRV-76",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 73.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0071",
+  "claim_agent_view": {
+   "claim_id": "CLM-0071",
+   "patient_token": "PAT-1474",
+   "provider_id": "PRV-13",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 859.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0118",
+  "claim_agent_view": {
+   "claim_id": "CLM-0118",
+   "patient_token": "PAT-6999",
+   "provider_id": "PRV-28",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "97140",
+     "units": 1,
+     "charge": 309.0
+    },
+    {
+     "cpt": "97110",
+     "units": 1,
+     "charge": 190.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "bundling",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0003",
+  "claim_agent_view": {
+   "claim_id": "CLM-0003",
+   "patient_token": "PAT-4517",
+   "provider_id": "PRV-14",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "M17.11",
+   "lines": [
+    {
+     "cpt": "99214",
+     "units": 1,
+     "charge": 138.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 4. Medical decision making recorded.",
+   "documented_level": 4,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0047",
+  "claim_agent_view": {
+   "claim_id": "CLM-0047",
+   "patient_token": "PAT-3659",
+   "provider_id": "PRV-24",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 398.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0093",
+  "claim_agent_view": {
+   "claim_id": "CLM-0093",
+   "patient_token": "PAT-3281",
+   "provider_id": "PRV-65",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "27447",
+     "units": 1,
+     "charge": 249.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": false
+  },
+  "gold_category": "medical_necessity",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0012",
+  "claim_agent_view": {
+   "claim_id": "CLM-0012",
+   "patient_token": "PAT-9133",
+   "provider_id": "PRV-97",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "J06.9",
+   "lines": [
+    {
+     "cpt": "99212",
+     "units": 1,
+     "charge": 594.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 2. Medical decision making recorded.",
+   "documented_level": 2,
+   "history_match": false
+  },
+  "gold_category": null,
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0041",
+  "claim_agent_view": {
+   "claim_id": "CLM-0041",
+   "patient_token": "PAT-9445",
+   "provider_id": "PRV-89",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 720.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0046",
+  "claim_agent_view": {
+   "claim_id": "CLM-0046",
+   "patient_token": "PAT-2103",
+   "provider_id": "PRV-36",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 501.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0026",
+  "claim_agent_view": {
+   "claim_id": "CLM-0026",
+   "patient_token": "PAT-4575",
+   "provider_id": "PRV-46",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 182.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0054",
+  "claim_agent_view": {
+   "claim_id": "CLM-0054",
+   "patient_token": "PAT-6966",
+   "provider_id": "PRV-70",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 175.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0044",
+  "claim_agent_view": {
+   "claim_id": "CLM-0044",
+   "patient_token": "PAT-7457",
+   "provider_id": "PRV-23",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "E11.9",
+   "lines": [
+    {
+     "cpt": "80053",
+     "units": 1,
+     "charge": 543.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Medical decision making recorded.",
+   "documented_level": null,
+   "history_match": true
+  },
+  "gold_category": "duplicate",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0052",
+  "claim_agent_view": {
+   "claim_id": "CLM-0052",
+   "patient_token": "PAT-7164",
+   "provider_id": "PRV-29",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 699.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ },
+ {
+  "case_id": "EVAL-CLM-0066",
+  "claim_agent_view": {
+   "claim_id": "CLM-0066",
+   "patient_token": "PAT-9873",
+   "provider_id": "PRV-74",
+   "date_of_service": "2026-01-15",
+   "diagnosis": "I10",
+   "lines": [
+    {
+     "cpt": "99215",
+     "units": 1,
+     "charge": 387.0
+    }
+   ],
+   "documentation": "Visit documented. Assessment and plan recorded. Documented visit level 3. Medical decision making recorded.",
+   "documented_level": 3,
+   "history_match": false
+  },
+  "gold_category": "upcoding",
+  "source": "synthetic_gold"
+ }
+]
