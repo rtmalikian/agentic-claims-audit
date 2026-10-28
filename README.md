@@ -9,6 +9,8 @@
 > For any medical issue or concern, seek a licensed healthcare professional.
 > **In an emergency, go to your nearest emergency room or dial 911 immediately.**
 
+▶ **Try the live demo:** https://rtmalikian.github.io/agentic-claims-audit/ — static preview with demo data, no backend connected.
+
 # Agentic Claims Audit — LangGraph AI Agent for Medical Claims Auditing with Hybrid RAG, LLM-as-Judge Evals & Citation Grounding
 
 **Production-grade agentic AI for medical claims auditing: a LangGraph agent that audits every claim in a population — not a sample — against a 2,100-document coding/coverage corpus, with hybrid BM25 + vector retrieval, reciprocal rank fusion, reranking, citation-grounded findings, LLM-as-judge grading, and human-review routing.**
