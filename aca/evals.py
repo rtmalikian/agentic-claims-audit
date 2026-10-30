@@ -14,6 +14,7 @@ from __future__ import annotations
 import json, httpx
 from dataclasses import dataclass, field
 from .corpus import Claim
+from .epic_mcp import EpicMcpClient
 
 REGRESSION_THRESHOLDS = {"precision": 0.80, "recall": 0.80, "citation_rate": 0.95}
 
@@ -99,3 +100,45 @@ def agent_view(case: EvalCase) -> dict:
 def regression_gate(metrics: dict, thresholds: dict = REGRESSION_THRESHOLDS) -> dict:
     failures = {k: (metrics.get(k), v) for k, v in thresholds.items() if metrics.get(k, 0) < v}
     return {"passed": not failures, "failures": failures}
+
+# --- open.epic MCP reference specs (documentation lookup only) --------------
+# The audit's rules are graded against coding/coverage reference material.
+# Epic publishes the FHIR API specifications for the claims resources this
+# tool reasons about (Claim, ExplanationOfBenefit) through the open.epic
+# MCP server — a *documentation* service, not a patient-data server (see
+# EPIC_MCP.md). These helpers fetch those specs as reference docs for the
+# eval/RAG tooling. They degrade gracefully: when the MCP server is
+# disabled or unreachable the result is ``available: False`` with no
+# references, and evals proceed exactly as before. No claim data is ever
+# sent — the queries below are constant documentation topics, and the
+# client's in-code no-PHI guard screens every query before transmission.
+
+EPIC_CLAIM_SPEC_QUERIES = ("Claim FHIR R4", "ExplanationOfBenefit FHIR R4")
+
+async def fetch_epic_claim_spec_references(client: EpicMcpClient | None = None,
+                                           queries: tuple[str, ...] = EPIC_CLAIM_SPEC_QUERIES) -> dict:
+    """Fetch Epic Claim / ExplanationOfBenefit API specs as reference docs.
+
+    Returns ``{"available": bool, "queries": [...], "references": [...]}``
+    where each reference is a normalised ``{id, title, url, snippet,
+    query}`` dict taken from the documentation search results. On any
+    unavailability the first failing result's reason is propagated and
+    ``references`` is empty — callers must treat the specs as optional
+    enrichment, never as a dependency of grading.
+    """
+    client = client or EpicMcpClient()
+    references: list[dict] = []
+    for query in queries:
+        result = await client.search_docs(query)
+        if not result.get("available"):
+            return {"available": False, "reason": result.get("reason", "unavailable"),
+                    "server": result.get("server"), "queries": list(queries),
+                    "references": []}
+        for hit in result.get("results", []):
+            if not isinstance(hit, dict):
+                continue
+            references.append({"id": hit.get("id", ""), "title": hit.get("title", ""),
+                               "url": hit.get("url", ""), "snippet": hit.get("snippet", ""),
+                               "query": query})
+    return {"available": True, "server": result.get("server") if queries else None,
+            "queries": list(queries), "references": references}

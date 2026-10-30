@@ -72,6 +72,10 @@ Or `docker compose up`.
 
 **Does not prove:** accuracy on real claims, real payer policy, or any production audit outcome. The corpus and claims are synthetic, the reasoner in v0.1 is deterministic rules behind the agent graph (the LLM gateway is a stub offline), and no real-world validation set exists yet. That validation is the roadmap's first item.
 
+## Epic API specs via open.epic MCP (documentation only)
+
+The eval/RAG tooling can fetch Epic's Claim / ExplanationOfBenefit FHIR R4 API specifications as reference docs through the open.epic MCP server (`aca/epic_mcp.py`, used by `fetch_epic_claim_spec_references` in `aca/evals.py`). That server is a documentation/spec-lookup service only — not patient data — with an in-code no-PHI guard and graceful degradation when unreachable. See [EPIC_MCP.md](EPIC_MCP.md).
+
 ## Roadmap
 
 1. Labelled real-world (de-identified) validation set
